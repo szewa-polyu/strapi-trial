@@ -38,6 +38,9 @@
       "repeatable": true,
       "component": "restaurant.hours-of-operation",
       "required": true
+    },
+    "start_date": {
+      "type": "date"
     }
   }
 }
