@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_restaurant_hours_of_operations",
+  "info": {
+    "name": "hours_of_operation",
+    "icon": "certificate"
+  },
+  "options": {},
+  "attributes": {
+    "day_interval": {
+      "type": "string",
+      "required": true
+    },
+    "opening_hours": {
+      "type": "string",
+      "required": true
+    },
+    "closing_hours": {
+      "type": "string"
+    }
+  }
+}
