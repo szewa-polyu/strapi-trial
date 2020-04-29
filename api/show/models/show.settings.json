@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shows",
+  "info": {
+    "name": "show"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Show_Name": {
+      "type": "string"
+    },
+    "actors": {
+      "collection": "actor",
+      "via": "shows",
+      "dominant": true
+    },
+    "Show_Date": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shows.show-date"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

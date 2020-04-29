@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shows_show_dates",
+  "info": {
+    "name": "Show Date",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "Date": {
+      "type": "datetime"
+    }
+  }
+}
