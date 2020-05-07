@@ -41,6 +41,11 @@
     },
     "start_date": {
       "type": "date"
+    },
+    "category_group": {
+      "type": "component",
+      "repeatable": false,
+      "component": "restaurant.category-group"
     }
   }
 }

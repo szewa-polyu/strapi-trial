@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_restaurant_category_groups",
+  "info": {
+    "name": "category group",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "categories": {
+      "collection": "category"
+    }
+  }
+}
