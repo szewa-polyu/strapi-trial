@@ -29,10 +29,6 @@
       "plugin": "upload",
       "required": true
     },
-    "categories": {
-      "collection": "category",
-      "via": "restaurants"
-    },
     "restaurant_hours": {
       "type": "component",
       "repeatable": true,
@@ -46,6 +42,11 @@
       "type": "component",
       "repeatable": false,
       "component": "restaurant.category-group"
+    },
+    "categories": {
+      "collection": "category",
+      "via": "restaurants",
+      "dominant": true
     }
   }
 }

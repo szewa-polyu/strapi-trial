@@ -16,8 +16,7 @@
     },
     "restaurants": {
       "via": "categories",
-      "collection": "restaurant",
-      "dominant": true
+      "collection": "restaurant"
     }
   }
 }
