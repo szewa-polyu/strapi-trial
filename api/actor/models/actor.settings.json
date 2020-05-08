@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "actors",
   "info": {
-    "name": "actor"
+    "name": "演員"
   },
   "options": {
     "increments": true,
